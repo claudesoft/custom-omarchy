@@ -62,3 +62,10 @@ Click on the Tor module in Waybar to toggle between Tor and Clearnet.
 The module displays:
 - "TOR ON" with green background when Tor is active
 - "⚠ TOR OFF" with red background when Clearnet is active
+
+## License
+
+WTFPL - Do What The Fuck You Want To Public License
+
+This software is provided WITHOUT ANY WARRANTY. Use at your own risk.
+See [LICENSE](LICENSE) for details.
