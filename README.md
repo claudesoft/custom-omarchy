@@ -14,8 +14,14 @@ Meine persönlichen Omarchy-Anpassungen mit Tor-Integration für Waybar.
 Eine Zeile zum Installieren:
 
 ```bash
-git clone https://github.com/kloot/custom-omarchy.git ~/custom-omarchy && cd ~/custom-omarchy && ./install.sh
+git clone https://github.com/claudesoft/custom-omarchy.git ~/custom-omarchy && cd ~/custom-omarchy && ./install.sh
 ```
+
+**Das Installationsskript ist nicht-destruktiv:**
+- Erstellt automatisch Backups deiner bestehenden Waybar-Konfiguration
+- Fügt nur das Tor-Modul hinzu, ohne deine anderen Einstellungen zu überschreiben
+- Prüft, ob das Modul bereits existiert und überspringt es in dem Fall
+- Fügt CSS-Styles nur hinzu, wenn sie noch nicht vorhanden sind
 
 ## Enthaltene Pakete
 
